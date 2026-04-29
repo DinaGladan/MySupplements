@@ -11,6 +11,13 @@
 *.sln.docstates
 *.env
 
+# Python
+venv/
+__pycache__/
+
+# Environment variables
+.env
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
