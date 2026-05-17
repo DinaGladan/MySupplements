@@ -30,8 +30,3 @@ class ParsedGoals(BaseModel):
     @classmethod
     def no_duplicates(cls, value: List[GoalType]) -> List[GoalType]:
         return list(dict.fromkeys(value))
-
-
-class ParsedInputResponse(BaseModel):
-    profile: ParsedProfile
-    goals: ParsedGoals

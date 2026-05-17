@@ -1,20 +1,22 @@
-from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    APP_NAME: str = "Supplement Advisor"
-    APP_VERSION: str = "1.0.0"
-    DEBUG: bool = False
+    app_name: str = "Supplement Advisor"
+    app_version: str = "1.0.0"
+    debug: bool = False
 
-    DATABASE_URL: str = "postgresql://postgres:password@localhost:5432/mysupplements_db"
+    database_url: str = "postgresql://postgres:postgres@localhost:5432/mysupplements_db"
 
-    LLM_API_KEY: str = ""
-    LLM_MODEL: str = "gpt-4o-mini"
-    LLM_BASE_URL: str = "https://api.openai.com/v1"
+    llm_api_key: str | None = None
+    llm_model: str = "gpt-4o-mini"
+    llm_base_url: str = "https://api.openai.com/v1"
 
-    MIN_DISPLAY_SCORE: int = 4
+    min_display_score: int = 4
 
-    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+    class Config:
+        env_file = ".env"
+        extra = "ignore"
 
 
 settings = Settings()

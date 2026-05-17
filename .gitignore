@@ -12,7 +12,7 @@
 *.env
 
 # Python
-venv/
+venv_supp/
 __pycache__/
 
 # Environment variables
