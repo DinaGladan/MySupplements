@@ -9,8 +9,8 @@ class Settings(BaseSettings):
     database_url: str = "postgresql://postgres:postgres@localhost:5432/mysupplements_db"
 
     llm_api_key: str | None = None
-    llm_model: str = "gpt-4o-mini"
-    llm_base_url: str = "https://api.openai.com/v1"
+    llm_model: str = "llama3"
+    llm_base_url: str = "http://localhost:11434"
 
     min_display_score: int = 4
 

@@ -26,8 +26,8 @@ def extract_json(text: str) -> str | None:
 class LLMClient:
 
     def __init__(self):
-        self.base_url = settings.LLM_BASE_URL
-        self.model = settings.LLM_MODEL
+        self.base_url = settings.llm_base_url
+        self.model = settings.llm_model
 
     def complete(self, system_prompt: str, user_message: str) -> str:
         """
