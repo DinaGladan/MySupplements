@@ -2,7 +2,12 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
-from app.api import routes_health, routes_parse, routes_supplements
+from app.api import (
+    routes_health,
+    routes_parse,
+    routes_recommend,
+    routes_supplements,
+)
 from app.config import settings
 from app.db.database import engine, Base
 import app.models  # noqa: F401  registers Supplement table with SQLAlchemy
@@ -28,3 +33,4 @@ app.include_router(
     routes_supplements.router, prefix="/supplements", tags=["Supplements"]
 )
 app.include_router(routes_parse.router, prefix="/parse", tags=["Parsing"])
+app.include_router(routes_recommend.router, prefix="/recommend", tags=["Recommend"])

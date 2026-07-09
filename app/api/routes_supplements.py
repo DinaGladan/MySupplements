@@ -16,6 +16,11 @@ class SupplementOut(BaseModel):
     name: str
     description: str | None
     goal_tags: list[str]
+    state_scores: dict
+    lifestyle_scores: dict
+    diet_scores: dict
+    deficiency_scores: dict
+    penalties: dict
 
     model_config = {"from_attributes": True}
 

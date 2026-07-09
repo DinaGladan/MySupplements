@@ -119,7 +119,7 @@ SUPPLEMENTS_DATA = [
         },
         "lifestyle_scores": {
             "activity_level:high": 3,
-            "activity_level:moderate": 1,
+            "activity_level:medium": 1,
         },
         "diet_scores": {
             "diet_type:vegan": 2,
@@ -140,7 +140,7 @@ SUPPLEMENTS_DATA = [
         "state_scores": {},
         "lifestyle_scores": {
             "activity_level:high": 2,
-            "activity_level:moderate": 1,
+            "activity_level:medium": 1,
         },
         "diet_scores": {
             "diet_type:vegan": 2,
@@ -351,7 +351,7 @@ SUPPLEMENTS_DATA = [
         },
         "lifestyle_scores": {
             "activity_level:high": 2,
-            "activity_level:moderate": 1,
+            "activity_level:medium": 1,
         },
         "diet_scores": {},
         "deficiency_scores": {},
@@ -364,7 +364,7 @@ SUPPLEMENTS_DATA = [
         "state_scores": {},
         "lifestyle_scores": {
             "activity_level:high": 3,
-            "activity_level:moderate": 1,
+            "activity_level:medium": 1,
         },
         "diet_scores": {},
         "deficiency_scores": {},
@@ -382,7 +382,7 @@ SUPPLEMENTS_DATA = [
         "state_scores": {},
         "lifestyle_scores": {
             "activity_level:high": 3,
-            "activity_level:moderate": 1,
+            "activity_level:medium": 1,
         },
         "diet_scores": {},
         "deficiency_scores": {},

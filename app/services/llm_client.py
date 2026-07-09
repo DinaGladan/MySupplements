@@ -90,7 +90,7 @@ class LLMClient:
             "stream": False,
             "options": {
                 "temperature": 0.7,
-                "num_predict": 800,
+                "num_predict": 600,
             },
         }
 
@@ -98,7 +98,9 @@ class LLMClient:
             response = requests.post(
                 f"{self.base_url}/api/generate",
                 json=payload,
-                timeout=60,
+                # Free-text generation is much slower than short JSON parsing;
+                # on a local CPU llama3 needs well over 60s, so give it room.
+                timeout=180,
             )
 
             response.raise_for_status()
