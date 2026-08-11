@@ -197,11 +197,13 @@ SUPPLEMENTS_DATA = [
         "penalties": {
             "diet_type:vegan": {
                 "penalty": 4,
+                "hard": True,
                 "warning": "Kolagen je životinjskog porijekla i nije kompatibilan s veganskom prehranom.",
             },
             "diet_type:vegetarian": {
-                "penalty": 2,
-                "warning": "Kolagen je životinjskog porijekla. Provjerite kompatibilnost s vašom prehranom.",
+                "penalty": 4,
+                "hard": True,
+                "warning": "Kolagen se dobiva iz kože i kostiju zaklanih životinja i nije kompatibilan s vegetarijanskom prehranom.",
             },
         },
     },
@@ -472,11 +474,13 @@ SUPPLEMENTS_DATA = [
         "penalties": {
             "diet_type:vegan": {
                 "penalty": 4,
+                "hard": True,
                 "warning": "Glukozamin i hondroitin nisu veganski i nisu kompatibilni s veganskom prehranom.",
             },
             "diet_type:vegetarian": {
-                "penalty": 2,
-                "warning": "Glukozamin i hondroitin su životinjskog porijekla. Provjerite kompatibilnost.",
+                "penalty": 4,
+                "hard": True,
+                "warning": "Glukozamin i hondroitin dobivaju se iz oklopa rakova i školjki te nisu kompatibilni s vegetarijanskom prehranom.",
             },
         },
     },

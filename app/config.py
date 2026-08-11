@@ -16,6 +16,8 @@ class Settings(BaseSettings):
 
     min_display_score: int = 4
 
+    safety_mode: str = "veto"
+
     # When False (default), the explanation is built by the fast deterministic
     # template (build_explanation). Set USE_LLM_EXPLANATION=True to have the LLM
     # write the explanation instead — nicer prose, but adds ~100-200s per request
