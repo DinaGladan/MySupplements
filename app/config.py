@@ -1,7 +1,9 @@
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
+    model_config = SettingsConfigDict(env_file=".env", extra="ignore")
+
     app_name: str = "Supplement Advisor"
     app_version: str = "1.0.0"
     debug: bool = False
@@ -14,9 +16,11 @@ class Settings(BaseSettings):
 
     min_display_score: int = 4
 
-    class Config:
-        env_file = ".env"
-        extra = "ignore"
+    # When False (default), the explanation is built by the fast deterministic
+    # template (build_explanation). Set USE_LLM_EXPLANATION=True to have the LLM
+    # write the explanation instead — nicer prose, but adds ~100-200s per request
+    # on a local CPU model. Recommendation quality is identical either way.
+    use_llm_explanation: bool = False
 
 
 settings = Settings()

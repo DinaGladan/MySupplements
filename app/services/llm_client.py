@@ -48,6 +48,9 @@ class LLMClient:
             "model": self.model,
             "prompt": prompt,
             "stream": False,
+            # Force valid JSON output from Ollama. This makes parsing far more
+            # reliable (fewer retries) and lets smaller/faster models be used.
+            "format": "json",
             "options": {
                 "temperature": 0.1,
                 "num_predict": 500,

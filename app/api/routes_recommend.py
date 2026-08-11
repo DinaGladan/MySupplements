@@ -4,6 +4,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session
 
+from app.config import settings
 from app.db.database import get_db
 from app.schemas.explanation_schema import FinalRecommendationResponse
 from app.schemas.profile_schema import RawUserInputRequest
@@ -60,13 +61,13 @@ def recommend(
         )
 
     # 8: natural-language explanation, in the same language as the user's input.
-    # generate_recommendation_text has its own fallback if Ollama is unavailable.
     language = detect_language(request.profile_text, request.goals_text)
 
-    if result.recommendations:
+    if result.recommendations and settings.use_llm_explanation:
+        # LLM prose (slower). Has its own fallback if Ollama is unavailable.
         explanation = generate_recommendation_text(result.recommendations, language)
     else:
-        # No LLM call when there is nothing to explain.
+        # Fast deterministic explanation (default); also used for empty results.
         explanation = build_explanation(result.recommendations, language)
 
     # 9: final response.

@@ -44,6 +44,11 @@ def validate_goals_data(data: dict[str, Any]) -> ParsedGoals:
     cleaned_goals: list[str] = []
 
     for goal in raw_goals:
+        # A weak LLM sometimes emits a goal as an object instead of a string;
+        # skip anything that is not a plain string (avoids a TypeError and keeps
+        # the other, valid goals).
+        if not isinstance(goal, str):
+            continue
         if goal in allowed_goals and goal not in cleaned_goals:
             cleaned_goals.append(goal)
 
