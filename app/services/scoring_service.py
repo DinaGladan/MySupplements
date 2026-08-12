@@ -46,6 +46,16 @@ def _profile_tokens(profile: ParsedProfile) -> set[str]:
     if profile.focus_issues is not None:
         tokens.add(f"focus_issues:{str(profile.focus_issues).lower()}")
 
+    if profile.pregnancy is not None:
+        tokens.add(f"pregnancy:{str(profile.pregnancy).lower()}")
+
+    if profile.breastfeeding is not None:
+        tokens.add(f"breastfeeding:{str(profile.breastfeeding).lower()}")
+
+    for allergy in profile.allergies or []:
+        token_value = allergy.value if hasattr(allergy, "value") else allergy
+        tokens.add(f"allergy:{token_value}")
+
     return tokens
 
 

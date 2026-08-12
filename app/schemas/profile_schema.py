@@ -40,6 +40,13 @@ class Gender(str, Enum):
     female = "female"
 
 
+class Allergy(str, Enum):
+    fish = "fish"
+    shellfish = "shellfish"
+    milk = "milk"
+    mushroom = "mushroom"
+
+
 class RawUserInputRequest(BaseModel):
     profile_text: str = Field(..., min_length=3)
     goals_text: str = Field(..., min_length=3)
@@ -57,3 +64,6 @@ class ParsedProfile(BaseModel):
     sun_exposure: Optional[IntakeLevel] = None
     fatigue_level: Optional[IntakeLevel] = None
     focus_issues: Optional[bool] = None
+    allergies: Optional[list[Allergy]] = None
+    pregnancy: Optional[bool] = None
+    breastfeeding: Optional[bool] = None

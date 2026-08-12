@@ -1,6 +1,6 @@
 from typing import Any
 from app.schemas.goals_schema import GoalType, ParsedGoals
-from app.schemas.profile_schema import ParsedProfile
+from app.schemas.profile_schema import Allergy, ParsedProfile
 
 
 def validate_profile_data(data: dict[str, Any]) -> ParsedProfile:
@@ -12,10 +12,32 @@ def validate_profile_data(data: dict[str, Any]) -> ParsedProfile:
     - age constraints
     - boolean validation
     - missing fields
+
+    The allergies list is cleaned before validation. An allergen outside the
+    supported set would otherwise raise and discard the entire profile, losing
+    every correctly extracted field along with it.
     """
 
     if not isinstance(data, dict):
         raise ValueError("Profile data must be a dictionary.")
+
+    data = dict(data)
+    raw_allergies = data.get("allergies")
+
+    if raw_allergies is not None:
+        if not isinstance(raw_allergies, list):
+            raw_allergies = []
+
+        allowed_allergies = {allergy.value for allergy in Allergy}
+        cleaned_allergies: list[str] = []
+
+        for allergy in raw_allergies:
+            if not isinstance(allergy, str):
+                continue
+            if allergy in allowed_allergies and allergy not in cleaned_allergies:
+                cleaned_allergies.append(allergy)
+
+        data["allergies"] = cleaned_allergies or None
 
     return ParsedProfile(**data)
 

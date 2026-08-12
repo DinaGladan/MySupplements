@@ -52,7 +52,8 @@ class LLMClient:
             # reliable (fewer retries) and lets smaller/faster models be used.
             "format": "json",
             "options": {
-                "temperature": 0.1,
+                "temperature": 0,
+                "seed": 42,
                 "num_predict": 500,
             },
         }

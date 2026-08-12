@@ -43,7 +43,13 @@ SUPPLEMENTS_DATA = [
         "deficiency_scores": {
             "fish_intake:low": 2,
         },
-        "penalties": {},
+        "penalties": {
+            "allergy:fish": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Omega-3 pripravci najčešće se proizvode iz ribljeg ulja i nisu prikladni kod alergije na ribu.",
+            },
+        },
     },
     {
         "name": "vitamin_d3",
@@ -61,7 +67,12 @@ SUPPLEMENTS_DATA = [
         "deficiency_scores": {
             "sun_exposure:low": 3,
         },
-        "penalties": {},
+        "penalties": {
+            "diet_type:vegan": {
+                "penalty": 1,
+                "warning": "Vitamin D3 najčešće se dobiva iz lanolina, masnoće ovčje vune. Potražite inačicu dobivenu iz lišajeva.",
+            },
+        },
     },
     {
         "name": "vitamin_b12",
@@ -94,7 +105,18 @@ SUPPLEMENTS_DATA = [
         "lifestyle_scores": {},
         "diet_scores": {},
         "deficiency_scores": {},
-        "penalties": {},
+        "penalties": {
+            "pregnancy:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Ashwagandha se ne preporučuje u trudnoći zbog nedostatnih podataka o sigurnosti.",
+            },
+            "breastfeeding:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Ashwagandha se ne preporučuje tijekom dojenja zbog nedostatnih podataka o sigurnosti.",
+            },
+        },
     },
     {
         "name": "melatonin",
@@ -108,7 +130,18 @@ SUPPLEMENTS_DATA = [
         },
         "diet_scores": {},
         "deficiency_scores": {},
-        "penalties": {},
+        "penalties": {
+            "pregnancy:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Melatonin je hormon i u trudnoći se ne preporučuje bez liječničkog nadzora.",
+            },
+            "breastfeeding:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Melatonin je hormon i tijekom dojenja se ne preporučuje bez liječničkog nadzora.",
+            },
+        },
     },
     {
         "name": "creatine",
@@ -147,7 +180,13 @@ SUPPLEMENTS_DATA = [
             "diet_type:vegetarian": 1,
         },
         "deficiency_scores": {},
-        "penalties": {},
+        "penalties": {
+            "allergy:milk": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Proteini sirutke mliječnog su porijekla i nisu prikladni kod alergije na mlijeko.",
+            },
+        },
     },
     {
         "name": "zinc",
@@ -172,7 +211,12 @@ SUPPLEMENTS_DATA = [
         "lifestyle_scores": {},
         "diet_scores": {},
         "deficiency_scores": {},
-        "penalties": {},
+        "penalties": {
+            "allergy:milk": {
+                "penalty": 2,
+                "warning": "Dio probiotičkih pripravaka proizvodi se na mliječnoj podlozi. Provjerite sastav.",
+            },
+        },
     },
     {
         "name": "biotin",
@@ -205,6 +249,11 @@ SUPPLEMENTS_DATA = [
                 "hard": True,
                 "warning": "Kolagen se dobiva iz kože i kostiju zaklanih životinja i nije kompatibilan s vegetarijanskom prehranom.",
             },
+            "allergy:fish": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Morski kolagen dobiva se iz ribe i nije prikladan kod alergije na ribu.",
+            },
         },
     },
     {
@@ -235,7 +284,18 @@ SUPPLEMENTS_DATA = [
         "lifestyle_scores": {},
         "diet_scores": {},
         "deficiency_scores": {},
-        "penalties": {},
+        "penalties": {
+            "pregnancy:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Rhodiola rosea se ne preporučuje u trudnoći zbog nedostatnih podataka o sigurnosti.",
+            },
+            "breastfeeding:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Rhodiola rosea se ne preporučuje tijekom dojenja zbog nedostatnih podataka o sigurnosti.",
+            },
+        },
     },
     {
         "name": "gaba",
@@ -248,7 +308,18 @@ SUPPLEMENTS_DATA = [
         "lifestyle_scores": {},
         "diet_scores": {},
         "deficiency_scores": {},
-        "penalties": {},
+        "penalties": {
+            "pregnancy:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "GABA se ne preporučuje u trudnoći zbog nedostatnih podataka o sigurnosti.",
+            },
+            "breastfeeding:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "GABA se ne preporučuje tijekom dojenja zbog nedostatnih podataka o sigurnosti.",
+            },
+        },
     },
     {
         "name": "b_complex",
@@ -280,7 +351,23 @@ SUPPLEMENTS_DATA = [
         "lifestyle_scores": {},
         "diet_scores": {},
         "deficiency_scores": {},
-        "penalties": {},
+        "penalties": {
+            "pregnancy:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Lions mane se ne preporučuje u trudnoći zbog nedostatnih podataka o sigurnosti.",
+            },
+            "breastfeeding:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Lions mane se ne preporučuje tijekom dojenja zbog nedostatnih podataka o sigurnosti.",
+            },
+            "allergy:mushroom": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Lions mane je gljiva i nije prikladan kod alergije na gljive.",
+            },
+        },
     },
     {
         "name": "glycine",
@@ -307,7 +394,18 @@ SUPPLEMENTS_DATA = [
         "lifestyle_scores": {},
         "diet_scores": {},
         "deficiency_scores": {},
-        "penalties": {},
+        "penalties": {
+            "pregnancy:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Valerijana se ne preporučuje u trudnoći zbog nedostatnih podataka o sigurnosti.",
+            },
+            "breastfeeding:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Valerijana se ne preporučuje tijekom dojenja zbog nedostatnih podataka o sigurnosti.",
+            },
+        },
     },
     {
         "name": "coenzyme_q10",
@@ -482,6 +580,11 @@ SUPPLEMENTS_DATA = [
                 "hard": True,
                 "warning": "Glukozamin i hondroitin dobivaju se iz oklopa rakova i školjki te nisu kompatibilni s vegetarijanskom prehranom.",
             },
+            "allergy:shellfish": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Glukozamin se dobiva iz oklopa rakova i školjki i nije prikladan kod alergije na plodove mora.",
+            },
         },
     },
     {
@@ -519,7 +622,18 @@ SUPPLEMENTS_DATA = [
         },
         "diet_scores": {},
         "deficiency_scores": {},
-        "penalties": {},
+        "penalties": {
+            "pregnancy:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Kurkumin u dozama iz dodataka prehrani ne preporučuje se u trudnoći. Količine iz hrane nisu sporne.",
+            },
+            "breastfeeding:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Kurkumin u dozama iz dodataka prehrani ne preporučuje se tijekom dojenja.",
+            },
+        },
     },
     {
         "name": "resveratrol",
@@ -534,7 +648,18 @@ SUPPLEMENTS_DATA = [
         "lifestyle_scores": {},
         "diet_scores": {},
         "deficiency_scores": {},
-        "penalties": {},
+        "penalties": {
+            "pregnancy:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Resveratrol se ne preporučuje u trudnoći zbog nedostatnih podataka o sigurnosti.",
+            },
+            "breastfeeding:true": {
+                "penalty": 4,
+                "hard": True,
+                "warning": "Resveratrol se ne preporučuje tijekom dojenja zbog nedostatnih podataka o sigurnosti.",
+            },
+        },
     },
 ]
 
