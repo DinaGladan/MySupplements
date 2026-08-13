@@ -1,0 +1,108 @@
+[
+  {
+    "id": "S01",
+    "tags": ["baseline"],
+    "profile_text": "I am 23 years old, vegetarian female, I sleep ok, I am often stressed, I feel tired during the day, I have trouble focusing, I drink a lot of coffee and I spend little time in the sun.",
+    "goals_text": "I want to sleep better, have more energy and reduce stress.",
+    "expected_profile": {
+      "age": 23, "sex": "female", "sleep_quality": "ok", "stress_level": "medium",
+      "diet_type": "vegetarian", "caffeine_intake": "high", "sun_exposure": "low",
+      "fatigue_level": "medium", "focus_issues": true, "activity_level": null, "fish_intake": null
+    },
+    "expected_goals": ["better_sleep", "more_energy", "stress_reduction"],
+    "relevant": ["l_theanine", "b_complex", "magnesium_glycinate", "vitamin_b12", "ashwagandha"],
+    "forbidden": [],
+    "expected_empty": false,
+    "predicted_profile": {
+      "age": 23, "sex": "female", "sleep_quality": "ok", "stress_level": "medium",
+      "diet_type": "vegetarian", "caffeine_intake": "high", "sun_exposure": "low",
+      "fatigue_level": "medium", "focus_issues": true, "activity_level": null, "fish_intake": null
+    },
+    "predicted_goals": ["better_sleep", "more_energy", "stress_reduction"]
+  },
+  {
+    "id": "S02",
+    "tags": ["diet", "safety"],
+    "profile_text": "Vegan, I want to improve my skin, hair and nails.",
+    "goals_text": "Better skin, hair and nails.",
+    "expected_profile": {
+      "diet_type": "vegan", "sex": null, "age": null, "sleep_quality": null,
+      "stress_level": null, "caffeine_intake": null, "sun_exposure": null,
+      "fatigue_level": null, "focus_issues": null, "activity_level": null, "fish_intake": null
+    },
+    "expected_goals": ["skin_hair_nails"],
+    "relevant": ["biotin", "silica"],
+    "forbidden": ["collagen", "glucosamine_chondroitin"],
+    "expected_empty": false,
+    "predicted_profile": {
+      "diet_type": "vegan", "sex": null, "age": null, "sleep_quality": null,
+      "stress_level": null, "caffeine_intake": null, "sun_exposure": null,
+      "fatigue_level": null, "focus_issues": null, "activity_level": null, "fish_intake": null
+    },
+    "predicted_goals": ["skin_hair_nails"]
+  },
+  {
+    "id": "S03",
+    "tags": ["edge", "expected_empty"],
+    "profile_text": "I want to sleep better.",
+    "goals_text": "Better sleep.",
+    "expected_profile": {
+      "age": null, "sex": null, "sleep_quality": null, "stress_level": null,
+      "diet_type": null, "caffeine_intake": null, "sun_exposure": null,
+      "fatigue_level": null, "focus_issues": null, "activity_level": null, "fish_intake": null
+    },
+    "expected_goals": ["better_sleep"],
+    "relevant": [],
+    "forbidden": [],
+    "expected_empty": true,
+    "predicted_profile": {
+      "age": null, "sex": null, "sleep_quality": null, "stress_level": null,
+      "diet_type": null, "caffeine_intake": null, "sun_exposure": null,
+      "fatigue_level": null, "focus_issues": null, "activity_level": null, "fish_intake": null
+    },
+    "predicted_goals": ["better_sleep"]
+  },
+  {
+    "id": "S04",
+    "tags": ["nlu", "negation"],
+    "profile_text": "I do not drink coffee, I sleep great and I am rarely stressed. I just want more energy.",
+    "goals_text": "More energy.",
+    "expected_profile": {
+      "age": null, "sex": null, "sleep_quality": "good", "stress_level": "low",
+      "diet_type": null, "caffeine_intake": "low", "sun_exposure": null,
+      "fatigue_level": null, "focus_issues": null, "activity_level": null, "fish_intake": null
+    },
+    "expected_goals": ["more_energy"],
+    "relevant": ["b_complex", "vitamin_b12"],
+    "forbidden": [],
+    "expected_empty": false,
+    "_comment": "predicted_* namjerno sadrži tipičnu tihu pogrešku negacije: 'ne pijem kavu' pogrešno parsirano kao caffeine_intake:high, i 'spavam sjajno' kao sleep_quality:poor.",
+    "predicted_profile": {
+      "age": null, "sex": null, "sleep_quality": "poor", "stress_level": "low",
+      "diet_type": null, "caffeine_intake": "high", "sun_exposure": null,
+      "fatigue_level": null, "focus_issues": null, "activity_level": null, "fish_intake": null
+    },
+    "predicted_goals": ["more_energy"]
+  },
+  {
+    "id": "S05",
+    "tags": ["safety", "veto"],
+    "profile_text": "Vegan, I eat almost no fish, I am very stressed, I want to support my heart and mood.",
+    "goals_text": "Heart health and better mood.",
+    "expected_profile": {
+      "diet_type": "vegan", "fish_intake": "low", "stress_level": "high",
+      "age": null, "sex": null, "sleep_quality": null, "caffeine_intake": null,
+      "sun_exposure": null, "fatigue_level": null, "focus_issues": null, "activity_level": null
+    },
+    "expected_goals": ["heart_health", "mood_support"],
+    "relevant": ["algae_omega"],
+    "forbidden": ["omega_3_fish"],
+    "expected_empty": false,
+    "predicted_profile": {
+      "diet_type": "vegan", "fish_intake": "low", "stress_level": "high",
+      "age": null, "sex": null, "sleep_quality": null, "caffeine_intake": null,
+      "sun_exposure": null, "fatigue_level": null, "focus_issues": null, "activity_level": null
+    },
+    "predicted_goals": ["heart_health", "mood_support"]
+  }
+]

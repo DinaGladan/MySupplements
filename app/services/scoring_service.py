@@ -166,7 +166,7 @@ def score_supplement(
 
     goal_match = 0
     if cfg.enabled.get("goal_match", True):
-        goal_match = cfg.goal_weight * len(matched_goals)
+        goal_match = int(round(cfg.goal_weight * len(matched_goals)))
         for goal in matched_goals:
             reasons.append(f"Matches goal: {goal.value}")
 

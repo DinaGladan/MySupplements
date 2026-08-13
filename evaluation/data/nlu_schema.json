@@ -1,0 +1,21 @@
+{
+  "_comment": "PREDLOŽAK — uskladiti s vašim stvarnim shemama (11 polja profila i 14 oznaka ciljeva prema radu). Koristi ga evaluate_nlu.py za provjeru valjanosti sheme.",
+  "profile_fields": {
+    "age": {"type": "int", "allowed": null},
+    "sex": {"type": "enum", "allowed": ["female", "male", "other"]},
+    "sleep_quality": {"type": "enum", "allowed": ["poor", "ok", "good"]},
+    "stress_level": {"type": "enum", "allowed": ["low", "medium", "high"]},
+    "diet_type": {"type": "enum", "allowed": ["omnivore", "vegetarian", "vegan", "pescatarian"]},
+    "caffeine_intake": {"type": "enum", "allowed": ["low", "medium", "high"]},
+    "sun_exposure": {"type": "enum", "allowed": ["low", "medium", "high"]},
+    "fatigue_level": {"type": "enum", "allowed": ["low", "medium", "high"]},
+    "focus_issues": {"type": "bool", "allowed": [true, false]},
+    "activity_level": {"type": "enum", "allowed": ["low", "medium", "high"]},
+    "fish_intake": {"type": "enum", "allowed": ["low", "medium", "high"]}
+  },
+  "goal_tags": [
+    "better_sleep", "more_energy", "stress_reduction", "better_focus",
+    "mood_support", "immune_support", "skin_hair_nails", "joint_support",
+    "bone_health", "muscle_support", "digestive_health", "heart_health"
+  ]
+}

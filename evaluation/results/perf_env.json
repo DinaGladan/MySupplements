@@ -1,0 +1,9 @@
+{
+  "cpu": "12th Gen Intel Core i5-1240P, 12C/16T",
+  "ram_gb": "15.7",
+  "gpu": "nema namjenskog; Intel Iris Xe Graphics (integrirani), izvođenje na CPU-u",
+  "os": "Microsoft Windows 11 Pro (10.0.26200)",
+  "ollama_version": "0.32.5",
+  "model": "llama3",
+  "quantization": "Q4_0 (llama3); llama3.2:3b Q4_K_M, qwen2.5:3b Q4_K_M, llama3.2:1b Q8_0"
+}

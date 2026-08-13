@@ -49,8 +49,10 @@ def generate_recommendations(
         if item is not None:
             scored.append(item)
 
-    # Highest score first. total_score is already computed by score_supplement.
-    scored.sort(key=lambda item: item.total_score, reverse=True)
+    # Highest score first, name as a tie-break. Without the second key the order
+    # of equally scored supplements would follow the order the database happened
+    # to return them in, so the same profile could produce a different ranking.
+    scored.sort(key=lambda item: (-item.total_score, item.supplement_name))
 
     top = scored[: cfg.max_recommendations]
 

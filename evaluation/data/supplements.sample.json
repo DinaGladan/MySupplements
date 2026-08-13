@@ -1,0 +1,122 @@
+[
+  {
+    "name": "l_theanine",
+    "description": "PRIMJER — zamijeniti stvarnom bazom znanja.",
+    "goal_tags": ["better_focus", "stress_reduction", "mood_support"],
+    "state_scores": {"stress_level:medium": 1, "focus_issues:true": 2},
+    "lifestyle_scores": {"caffeine_intake:high": 2},
+    "diet_scores": {},
+    "deficiency_scores": {},
+    "penalties": {}
+  },
+  {
+    "name": "b_complex",
+    "description": "PRIMJER",
+    "goal_tags": ["more_energy"],
+    "state_scores": {"fatigue_level:medium": 1, "focus_issues:true": 2},
+    "lifestyle_scores": {},
+    "diet_scores": {"diet_type:vegetarian": 2, "diet_type:vegan": 2},
+    "deficiency_scores": {},
+    "penalties": {}
+  },
+  {
+    "name": "magnesium_glycinate",
+    "description": "PRIMJER",
+    "goal_tags": ["better_sleep", "stress_reduction"],
+    "state_scores": {"stress_level:medium": 1, "sleep_quality:poor": 3},
+    "lifestyle_scores": {"caffeine_intake:high": 1},
+    "diet_scores": {},
+    "deficiency_scores": {},
+    "penalties": {}
+  },
+  {
+    "name": "vitamin_b12",
+    "description": "PRIMJER",
+    "goal_tags": ["more_energy"],
+    "state_scores": {"focus_issues:true": 2},
+    "lifestyle_scores": {},
+    "diet_scores": {"diet_type:vegetarian": 2, "diet_type:vegan": 4},
+    "deficiency_scores": {},
+    "penalties": {}
+  },
+  {
+    "name": "ashwagandha",
+    "description": "PRIMJER",
+    "goal_tags": ["better_sleep", "stress_reduction"],
+    "state_scores": {"stress_level:medium": 1, "stress_level:high": 2, "focus_issues:true": 1},
+    "lifestyle_scores": {},
+    "diet_scores": {},
+    "deficiency_scores": {},
+    "penalties": {}
+  },
+  {
+    "name": "biotin",
+    "description": "PRIMJER",
+    "goal_tags": ["skin_hair_nails"],
+    "state_scores": {},
+    "lifestyle_scores": {},
+    "diet_scores": {"diet_type:vegan": 2},
+    "deficiency_scores": {"diet_type:vegan": 2},
+    "penalties": {}
+  },
+  {
+    "name": "silica",
+    "description": "PRIMJER",
+    "goal_tags": ["skin_hair_nails"],
+    "state_scores": {},
+    "lifestyle_scores": {},
+    "diet_scores": {"diet_type:vegan": 2},
+    "deficiency_scores": {"diet_type:vegan": 2},
+    "penalties": {}
+  },
+  {
+    "name": "collagen",
+    "description": "PRIMJER — životinjskog podrijetla (kontraindicirano za vegane).",
+    "goal_tags": ["skin_hair_nails", "joint_support"],
+    "state_scores": {},
+    "lifestyle_scores": {},
+    "diet_scores": {},
+    "deficiency_scores": {},
+    "penalties": {"diet_type:vegan": {"penalty": 4, "warning": "Kolagen je životinjskog podrijetla i nije prikladan za vegansku prehranu."}}
+  },
+  {
+    "name": "glucosamine_chondroitin",
+    "description": "PRIMJER — životinjskog podrijetla.",
+    "goal_tags": ["joint_support"],
+    "state_scores": {},
+    "lifestyle_scores": {},
+    "diet_scores": {},
+    "deficiency_scores": {},
+    "penalties": {"diet_type:vegan": {"penalty": 4, "warning": "Glukozamin-kondroitin je životinjskog podrijetla."}}
+  },
+  {
+    "name": "vitamin_d",
+    "description": "PRIMJER",
+    "goal_tags": ["immune_support", "bone_health"],
+    "state_scores": {},
+    "lifestyle_scores": {},
+    "diet_scores": {},
+    "deficiency_scores": {"sun_exposure:low": 3},
+    "penalties": {}
+  },
+  {
+    "name": "omega_3_fish",
+    "description": "PRIMJER — riblje ulje (kontraindicirano za vegane); jaki pozitivni bodovi za demonstraciju veta.",
+    "goal_tags": ["heart_health", "mood_support"],
+    "state_scores": {"stress_level:high": 2},
+    "lifestyle_scores": {},
+    "diet_scores": {},
+    "deficiency_scores": {"fish_intake:low": 3},
+    "penalties": {"diet_type:vegan": {"penalty": 4, "warning": "Riblje ulje nije prikladno za vegansku prehranu; razmotrite algae omega-3."}}
+  },
+  {
+    "name": "algae_omega",
+    "description": "PRIMJER — veganski izvor omega-3 (bez kazne).",
+    "goal_tags": ["heart_health", "mood_support"],
+    "state_scores": {"stress_level:high": 2},
+    "lifestyle_scores": {},
+    "diet_scores": {"diet_type:vegan": 1},
+    "deficiency_scores": {"fish_intake:low": 3},
+    "penalties": {}
+  }
+]

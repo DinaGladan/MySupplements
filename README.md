@@ -46,10 +46,26 @@ Each supplement stores its own scoring data as JSON:
 - `lifestyle_scores` – points for lifestyle (e.g. `"activity_level:high": 2`)
 - `diet_scores` – points for diet (e.g. `"diet_type:vegan": 4`)
 - `deficiency_scores` – deficiency-risk points (e.g. `"sun_exposure:low": 3`)
-- `penalties` – `{ "field:value": { "penalty": N, "warning": "..." } }`
+- `penalties` – `{ "field:value": { "penalty": N, "hard": true, "warning": "..." } }`
 
 The engine builds a set of `"field:value"` tokens from the parsed profile and looks
-them up in these dictionaries. The total score is:
+them up in these dictionaries.
+
+### Stage 1 — safety
+
+A penalty rule marked `"hard": true` is a **contraindication**, not a score
+reduction. When `SAFETY_MODE=veto` (the default) the supplement is removed from
+the candidate set before ranking and can never be shown, no matter how many
+positive matches it collected. Rules without the flag stay soft penalties.
+
+Hard rules currently cover animal-derived products against vegan and vegetarian
+diets, four allergens (`fish`, `shellfish`, `milk`, `mushroom`), and supplements
+without sufficient safety data in pregnancy or breastfeeding.
+
+Setting `SAFETY_MODE=soft` restores the earlier behaviour, where a contraindication
+was only subtracted from the total. It is kept so the two policies can be compared.
+
+### Stage 2 — scoring
 
 ```
 total_score = goal_match
@@ -62,4 +78,32 @@ total_score = goal_match
 
 `goal_match` = 2 points per matched goal. Supplements scoring below
 `MIN_DISPLAY_SCORE` (default 4) are not shown. Strength labels: `weak` (<5),
-`good` (5–6), `very_relevant` (7+).
+`good` (5–6), `very_relevant` (7+). Ties are broken by supplement name so that
+the same profile always produces the same ordering.
+
+Weights, category scales and the safety mode are grouped in
+`app/services/scoring_config.py`. Passing no config reproduces production
+behaviour; the evaluation scripts vary it to run ablation and sensitivity analyses.
+
+## Tests
+
+```bash
+pytest            # 81 hermetic tests, no Ollama needed
+pytest -m llm     # 12 parser-robustness tests, needs Ollama running
+```
+
+## Evaluation
+
+```bash
+python evaluation/export_supplements.py     # database -> evaluation/data/supplements.json
+cd evaluation && python run_all.py          # ranking, ablation, sensitivity, safety, NLU, performance
+```
+
+`run_all.py` writes CSV reports to `evaluation/results/`. The scripts evaluate the
+real engine from `app/` through `evaluation/real_engine.py`; setting
+`EVAL_ENGINE=reference` switches to the bundled reference implementation, which is
+useful only for checking that the two agree. On Windows set `PYTHONIOENCODING=utf-8`
+first, otherwise the console cannot print the Croatian output.
+
+Re-run `export_supplements.py` after every change to `app/db/seed.py` — the scripts
+read the exported JSON, not the database.

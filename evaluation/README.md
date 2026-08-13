@@ -1,7 +1,64 @@
 # Evaluation
 
-Scripts for evaluating the MySupplements system. Run everything from the project
-root (the folder containing `app/` and `evaluation/`).
+Two suites live here.
+
+## 1. Thesis evaluation suite
+
+Produces the numbers for the revised chapter 8. Each script writes a table to the
+console and a CSV to `results/`.
+
+```bash
+python evaluation/export_supplements.py     # database -> data/supplements.json
+cd evaluation
+PYTHONIOENCODING=utf-8 python run_all.py    # everything offline, in order
+```
+
+On Windows the encoding variable is required: the scripts print Croatian text and
+the default console codepage cannot encode it.
+
+| Script | Section | Produces |
+| --- | --- | --- |
+| `evaluate_ranking.py` | 8.3, 8.4, 8.10 | precision/recall/nDCG@k, MRR, Wilson CI, Wilcoxon vs baselines |
+| `evaluate_ablation.py` | 8.5 | Δ per removed category |
+| `evaluate_sensitivity.py` | 8.6 | overlap@k, Kendall τ under weight perturbation |
+| `evaluate_safety.py` | 8.7 | contraindication violation rate, soft penalties vs hard veto |
+| `evaluate_nlu.py` | 8.8 | schema validity, per-field accuracy, negation subset, goal F1 |
+| `evaluate_performance.py` | 8.9 | p50/p95/p99 latency plus the measurement environment |
+| `metrics.py` | 8.2, 8.3 | shared metrics and statistics, including Cohen's and Fleiss' κ |
+
+Live modes need Ollama and the API running:
+
+```bash
+python evaluate_nlu.py --api-url http://localhost:8000 --repeats 3
+python evaluate_performance.py --api-url http://localhost:8000 --repeats 20
+```
+
+### Which engine is measured
+
+`engine_adapter.rank_full` calls the **real** engine from `app/` through
+`real_engine.py`, so the evaluation reports the system that actually serves
+`/recommend`. The bundled reference implementation stays available as
+`rank_reference`; `EVAL_ENGINE=reference` switches to it, which is only useful for
+checking that the two agree. They currently agree exactly, both reproducing the
+7 / 7 / 6 / 6 / 6 totals of table 10.1.
+
+### Data
+
+`data/*.sample.json` are templates with five examples so the scripts run out of the
+box. **Results on them are not usable in the thesis.** `load_supplements` and
+`load_scenarios` prefer `supplements.json` and `scenarios.json` when those exist,
+so exporting the database and writing the real scenarios is enough to switch over.
+
+Re-run `export_supplements.py` after every change to `app/db/seed.py` — the scripts
+read the exported JSON, not the database.
+
+## 2. Older in-house suite
+
+Predates the suite above and is largely superseded by it. `benchmark_models.py` is
+not, and is still what compares LLM models for chapter 9.
+
+Run everything from the project root (the folder containing `app/` and
+`evaluation/`).
 
 ## Dataset
 
