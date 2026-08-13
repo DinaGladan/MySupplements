@@ -88,7 +88,15 @@ def schema_valid(profile, goals, schema):
             continue
         spec = fields[key]
         allowed = spec.get("allowed")
-        if allowed is not None and val not in allowed:
+        if allowed is None:
+            continue
+        # Polja tipa liste (npr. allergies) provjeravaju se po članu; bez toga bi
+        # se cijela lista uspoređivala s pojedinačnim dopuštenim vrijednostima i
+        # svaki ispravno izvučen popis bio bi proglašen neispravnim.
+        if spec.get("type") == "list" or isinstance(val, list):
+            if not isinstance(val, list) or any(item not in allowed for item in val):
+                return False
+        elif val not in allowed:
             return False
     allowed_goals = set(schema["goal_tags"])
     return all(g in allowed_goals for g in (goals or []))

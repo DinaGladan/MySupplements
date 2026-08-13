@@ -231,3 +231,31 @@ def load_supplements(path: Optional[str] = None) -> List[dict]:
 
 def load_scenarios(path: Optional[str] = None) -> List[dict]:
     return load_json(path or _default_path("scenarios.json", "scenarios.sample.json"))
+
+
+def require_relevance_labels(scenarios: List[dict], script: str) -> None:
+    """Prekini s razumljivom porukom ako oznake relevantnosti još ne postoje.
+
+    Mjere rangiranja su nedefinirane bez njih, pa bi skripta inače pukla usred
+    ispisa tablice na nečitljivoj grešci o tipu."""
+    if any(s.get("relevant") for s in scenarios):
+        return
+
+    # Ukloni raniji izvještaj ove skripte. Kad bi ostao, u results/ bi stajala
+    # tablica s brojevima iz nekog prijašnjeg pokretanja, a ništa je ne bi
+    # označilo kao zastarjelu.
+    stale = os.path.join(SCRIPT_DIR, "results", script.replace("evaluate_", "").replace(".py", "") + ".csv")
+    if os.path.exists(stale):
+        os.remove(stale)
+
+    raise SystemExit(
+        f"\n{script}: nijedan scenarij nema popunjeno polje `relevant`.\n\n"
+        "Mjere rangiranja se bez oznaka relevantnosti ne mogu izračunati. Te oznake\n"
+        "daju neovisni označivači (stavka A3), a ne sustav — inače bi se sustav\n"
+        "ocjenjivao vlastitim pravilima.\n\n"
+        "Postupak:\n"
+        "  1. python evaluation/make_annotation_form.py\n"
+        "  2. dvije osobe zasebno ispune data/annotation_form.csv\n"
+        "  3. python evaluation/merge_annotations.py data/annotations_a.csv data/annotations_b.csv\n\n"
+        "Do tada rade evaluate_safety.py, evaluate_nlu.py i evaluate_performance.py.\n"
+    )

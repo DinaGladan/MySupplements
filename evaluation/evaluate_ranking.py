@@ -89,6 +89,7 @@ def main():
 
     supplements = E.load_supplements(args.supplements)
     scenarios = E.load_scenarios(args.scenarios)
+    E.require_relevance_labels(scenarios, "evaluate_ranking.py")
     cfg = E.ScoringConfig()
     k = args.k
     seeds = list(range(args.random_seeds))

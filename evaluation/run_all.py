@@ -19,6 +19,9 @@ import evaluate_nlu
 import evaluate_performance
 
 
+_SKIPPED = []
+
+
 def _run(name, fn):
     print("\n" + "=" * 70)
     print(f">>> {name}")
@@ -27,6 +30,12 @@ def _run(name, fn):
     sys.argv = [name]          # pokreni sa zadanim argumentima
     try:
         fn()
+    except SystemExit as e:
+        # Skripta se sama zaustavila jer joj nedostaju podaci (npr. oznake
+        # relevantnosti). To nije razlog da stanu i ostale evaluacije.
+        if e.code not in (0, None):
+            print(e.code)
+        _SKIPPED.append(name)
     finally:
         sys.argv = old
 
@@ -38,7 +47,9 @@ def main():
     _run("evaluate_safety", evaluate_safety.main)
     _run("evaluate_nlu", evaluate_nlu.main)
     _run("evaluate_performance", evaluate_performance.main)
-    print("\nGotovo. Svi CSV izvještaji su u mapi results/.")
+    print("\nGotovo. CSV izvještaji su u mapi results/.")
+    if _SKIPPED:
+        print(f"Preskočeno jer nedostaju podaci: {', '.join(_SKIPPED)}")
 
 
 if __name__ == "__main__":

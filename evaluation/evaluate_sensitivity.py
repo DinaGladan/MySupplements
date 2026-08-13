@@ -66,6 +66,7 @@ def main():
 
     supplements = E.load_supplements(args.supplements)
     scenarios = [s for s in E.load_scenarios(args.scenarios) if not s.get("expected_empty")]
+    E.require_relevance_labels(scenarios, "evaluate_sensitivity.py")
     k = args.k
     base = E.ScoringConfig()
 

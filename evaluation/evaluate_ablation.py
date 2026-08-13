@@ -26,6 +26,7 @@ def main():
 
     supplements = E.load_supplements(args.supplements)
     scenarios = E.load_scenarios(args.scenarios)
+    E.require_relevance_labels(scenarios, "evaluate_ablation.py")
     k = args.k
 
     base_cfg = E.ScoringConfig()

@@ -1,0 +1,1835 @@
+[
+  {
+    "id": "S01",
+    "tags": [
+      "baseline"
+    ],
+    "profile_text": "Imam 23 godine, vegetarijanka sam, san mi je u redu ali sam često pod stresom, tijekom dana sam umorna, teško se koncentriram, pijem puno kave i malo sam na suncu.",
+    "goals_text": "Želim bolje spavati, imati više energije i smanjiti stres.",
+    "expected_profile": {
+      "age": 23,
+      "gender": "female",
+      "sleep_quality": "average",
+      "stress_level": "medium",
+      "activity_level": null,
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": "high",
+      "sun_exposure": "low",
+      "fatigue_level": "medium",
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "better_sleep",
+      "more_energy",
+      "stress_reduction"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "collagen",
+      "glucosamine_chondroitin"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 23,
+      "gender": null,
+      "sleep_quality": "good",
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": "high",
+      "sun_exposure": "low",
+      "fatigue_level": "medium",
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "better_sleep",
+      "more_energy",
+      "stress_reduction"
+    ]
+  },
+  {
+    "id": "S02",
+    "tags": [
+      "baseline"
+    ],
+    "profile_text": "Vegan sam i cijeli dan se osjećam iscrpljeno.",
+    "goals_text": "Želim više energije.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegan",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "more_energy"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "collagen",
+      "glucosamine_chondroitin"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegan",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "more_energy"
+    ]
+  },
+  {
+    "id": "S03",
+    "tags": [
+      "baseline"
+    ],
+    "profile_text": "Imam 27 godina, treniram intenzivno gotovo svaki dan.",
+    "goals_text": "Želim bolji oporavak i bolju fizičku izvedbu.",
+    "expected_profile": {
+      "age": 27,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "high",
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "recovery",
+      "physical_performance"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 27,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "high",
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "recovery",
+      "physical_performance"
+    ]
+  },
+  {
+    "id": "S04",
+    "tags": [
+      "baseline"
+    ],
+    "profile_text": "Gotovo nikada ne jedem ribu.",
+    "goals_text": "Želim podržati zdravlje srca.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": "low",
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "heart_health"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": "low",
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "fish"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "heart_health"
+    ]
+  },
+  {
+    "id": "S05",
+    "tags": [
+      "baseline"
+    ],
+    "profile_text": "Radim u uredu i rijetko izlazim na sunce, zimi mi padne raspoloženje.",
+    "goals_text": "Želim jači imunitet i bolje raspoloženje.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": "low",
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "immune_support",
+      "mood_support"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": "low",
+      "fatigue_level": null,
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "immune_support",
+      "mood_support"
+    ]
+  },
+  {
+    "id": "S06",
+    "tags": [
+      "baseline"
+    ],
+    "profile_text": "Imam 34 godine, stalno sam umoran i teško se koncentriram na poslu.",
+    "goals_text": "Želim više energije i bolju koncentraciju.",
+    "expected_profile": {
+      "age": 34,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "more_energy",
+      "better_focus"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 34,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "more_energy",
+      "better_focus"
+    ]
+  },
+  {
+    "id": "S07",
+    "tags": [
+      "baseline"
+    ],
+    "profile_text": "Vrlo loše spavam, pod velikim sam stresom i pijem puno kave.",
+    "goals_text": "Želim bolje spavati i smanjiti stres.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": "high",
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "better_sleep",
+      "stress_reduction"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": "high",
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "better_sleep",
+      "stress_reduction"
+    ]
+  },
+  {
+    "id": "S08",
+    "tags": [
+      "baseline"
+    ],
+    "profile_text": "Imam 29 godina, jedem sve, ali koža mi je loša i nokti mi pucaju.",
+    "goals_text": "Želim zdraviju kožu, jaču kosu i jače nokte.",
+    "expected_profile": {
+      "age": 29,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "omnivore",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "skin_health",
+      "hair_health",
+      "nail_strength"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 29,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "omnivore",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "skin_health",
+      "hair_health",
+      "nail_strength"
+    ]
+  },
+  {
+    "id": "S09",
+    "tags": [
+      "negation"
+    ],
+    "profile_text": "Ne pijem kavu i nikada je nisam pila.",
+    "goals_text": "Želim bolje spavati.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": "low",
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "better_sleep"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": "low",
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "better_sleep"
+    ]
+  },
+  {
+    "id": "S10",
+    "tags": [
+      "negation"
+    ],
+    "profile_text": "Nemam problema sa snom, spavam odlično, ali sam preko dana umorna.",
+    "goals_text": "Želim više energije.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "good",
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "more_energy"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "good",
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "more_energy"
+    ]
+  },
+  {
+    "id": "S11",
+    "tags": [
+      "negation",
+      "safety"
+    ],
+    "profile_text": "Imam 31 godinu, nisam trudna i ne dojim, ali sam pod stresom.",
+    "goals_text": "Želim smanjiti stres.",
+    "expected_profile": {
+      "age": 31,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": false,
+      "breastfeeding": false
+    },
+    "expected_goals": [
+      "stress_reduction"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 31,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": false,
+      "breastfeeding": false
+    },
+    "predicted_goals": [
+      "stress_reduction"
+    ]
+  },
+  {
+    "id": "S12",
+    "tags": [
+      "negation",
+      "safety"
+    ],
+    "profile_text": "Nemam nikakvih alergija, jedem ribu redovito.",
+    "goals_text": "Želim podržati srce.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": "high",
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "heart_health"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": "high",
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "heart_health"
+    ]
+  },
+  {
+    "id": "S13",
+    "tags": [
+      "no_diacritics"
+    ],
+    "profile_text": "Cesto sam pod stresom i lose spavam.",
+    "goals_text": "Zelim smanjiti stres i bolje spavati.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "stress_reduction",
+      "better_sleep"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "stress_reduction",
+      "better_sleep"
+    ]
+  },
+  {
+    "id": "S14",
+    "tags": [
+      "no_diacritics"
+    ],
+    "profile_text": "Imam 26 godina, vegetarijanka sam i slabo izlazim na sunce.",
+    "goals_text": "Zelim jaci imunitet.",
+    "expected_profile": {
+      "age": 26,
+      "gender": "female",
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": "low",
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "immune_support"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "collagen",
+      "glucosamine_chondroitin"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 26,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": "low",
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "immune_support"
+    ]
+  },
+  {
+    "id": "S15",
+    "tags": [
+      "no_diacritics"
+    ],
+    "profile_text": "Puno treniram, aktivnost mi je visoka, stalno sam umoran.",
+    "goals_text": "Zelim bolji oporavak i vise energije.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "high",
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "recovery",
+      "more_energy"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": "high",
+      "activity_level": "high",
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "recovery",
+      "more_energy"
+    ]
+  },
+  {
+    "id": "S16",
+    "tags": [
+      "no_diacritics",
+      "safety"
+    ],
+    "profile_text": "Imam 33 godine, alergicna sam na mlijeko i intenzivno treniram.",
+    "goals_text": "Zelim bolji oporavak.",
+    "expected_profile": {
+      "age": 33,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "high",
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "milk"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "recovery"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "protein_powder"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 33,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "high",
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "milk"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "recovery"
+    ]
+  },
+  {
+    "id": "S17",
+    "tags": [
+      "code_switching"
+    ],
+    "profile_text": "Imam 25 godina, I am vegan, često sam pod stresom.",
+    "goals_text": "Želim stress reduction i više energije.",
+    "expected_profile": {
+      "age": 25,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": "vegan",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "stress_reduction",
+      "more_energy"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "collagen",
+      "glucosamine_chondroitin"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 25,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": "vegan",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "stress_reduction",
+      "more_energy"
+    ]
+  },
+  {
+    "id": "S18",
+    "tags": [
+      "code_switching",
+      "safety"
+    ],
+    "profile_text": "I am 30 years old, vegetarijanka sam i trudna sam.",
+    "goals_text": "I want better sleep i manje stresa.",
+    "expected_profile": {
+      "age": 30,
+      "gender": "female",
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": true,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "better_sleep",
+      "stress_reduction"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "ashwagandha",
+      "collagen",
+      "curcumin",
+      "gaba",
+      "glucosamine_chondroitin",
+      "lions_mane",
+      "melatonin",
+      "resveratrol",
+      "rhodiola_rosea",
+      "valerian_root"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 30,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": true,
+      "breastfeeding": true
+    },
+    "predicted_goals": [
+      "better_sleep",
+      "stress_reduction"
+    ]
+  },
+  {
+    "id": "S19",
+    "tags": [
+      "code_switching"
+    ],
+    "profile_text": "Trebam more energy, stalno sam tired i teško se fokusiram.",
+    "goals_text": "More energy and better focus.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "more_energy",
+      "better_focus"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "more_energy",
+      "better_focus"
+    ]
+  },
+  {
+    "id": "S20",
+    "tags": [
+      "typos"
+    ],
+    "profile_text": "Imam 27 godina i tesko se koncentiram na poslu.",
+    "goals_text": "Zelim bolju koncentracju.",
+    "expected_profile": {
+      "age": 27,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "better_focus"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 27,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "better_focus"
+    ]
+  },
+  {
+    "id": "S21",
+    "tags": [
+      "typos"
+    ],
+    "profile_text": "Imam problema sa snom, stalo sam umorna i pijem puuno kave.",
+    "goals_text": "Zelim bolje spavti.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": "high",
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "better_sleep"
+    ],
+    "expected_empty": false,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": "high",
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "better_sleep"
+    ]
+  },
+  {
+    "id": "S22",
+    "tags": [
+      "typos",
+      "safety"
+    ],
+    "profile_text": "Vegetarjanka sam, imam 24 godne.",
+    "goals_text": "Zelim zdraviju kozu i jace nokte.",
+    "expected_profile": {
+      "age": 24,
+      "gender": "female",
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "skin_health",
+      "nail_strength"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "collagen",
+      "glucosamine_chondroitin"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 24,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "skin_health",
+      "nail_strength"
+    ]
+  },
+  {
+    "id": "S23",
+    "tags": [
+      "safety"
+    ],
+    "profile_text": "Imam 25 godina, veganka sam i intenzivno treniram.",
+    "goals_text": "Želim zdraviju kožu, jaču kosu, jače nokte i bolji oporavak.",
+    "expected_profile": {
+      "age": 25,
+      "gender": "female",
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "high",
+      "diet_type": "vegan",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "skin_health",
+      "hair_health",
+      "nail_strength",
+      "recovery"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "collagen",
+      "glucosamine_chondroitin"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 25,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "high",
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "skin_health",
+      "hair_health",
+      "nail_strength",
+      "recovery"
+    ]
+  },
+  {
+    "id": "S24",
+    "tags": [
+      "safety"
+    ],
+    "profile_text": "Imam 30 godina, vegetarijanka sam i ne vježbam puno.",
+    "goals_text": "Želim zdraviju kožu, jaču kosu, jače nokte i bolji oporavak.",
+    "expected_profile": {
+      "age": 30,
+      "gender": "female",
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "low",
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "skin_health",
+      "hair_health",
+      "nail_strength",
+      "recovery"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "collagen",
+      "glucosamine_chondroitin"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 30,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "low",
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "skin_health",
+      "hair_health",
+      "nail_strength",
+      "recovery"
+    ]
+  },
+  {
+    "id": "S25",
+    "tags": [
+      "safety"
+    ],
+    "profile_text": "Imam 26 godina i jako sam alergična na ribu.",
+    "goals_text": "Želim podržati srce i koncentraciju.",
+    "expected_profile": {
+      "age": 26,
+      "gender": "female",
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "fish"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "heart_health",
+      "better_focus"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "collagen",
+      "omega_3"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 26,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "fish"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "heart_health",
+      "better_focus"
+    ]
+  },
+  {
+    "id": "S26",
+    "tags": [
+      "safety"
+    ],
+    "profile_text": "Imam 45 godina, alergičan sam na plodove mora, bole me zglobovi.",
+    "goals_text": "Želim bolji oporavak i opće zdravlje.",
+    "expected_profile": {
+      "age": 45,
+      "gender": "male",
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "shellfish"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "recovery",
+      "general_health"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "glucosamine_chondroitin"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 45,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "shellfish"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "recovery",
+      "general_health"
+    ]
+  },
+  {
+    "id": "S27",
+    "tags": [
+      "safety"
+    ],
+    "profile_text": "Imam 22 godine, ne podnosim mlijeko, treniram svaki dan.",
+    "goals_text": "Želim bolju fizičku izvedbu i oporavak.",
+    "expected_profile": {
+      "age": 22,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "high",
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "milk"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "physical_performance",
+      "recovery"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "protein_powder"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 22,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": "high",
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "milk"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "physical_performance",
+      "recovery"
+    ]
+  },
+  {
+    "id": "S28",
+    "tags": [
+      "safety"
+    ],
+    "profile_text": "Imam 38 godina, alergična sam na gljive i teško se koncentriram.",
+    "goals_text": "Želim bolju koncentraciju i raspoloženje.",
+    "expected_profile": {
+      "age": 38,
+      "gender": "female",
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": true,
+      "allergies": [
+        "mushroom"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "better_focus",
+      "mood_support"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "lions_mane"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 38,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": true,
+      "allergies": [
+        "mushroom"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "better_focus",
+      "mood_support"
+    ]
+  },
+  {
+    "id": "S29",
+    "tags": [
+      "safety"
+    ],
+    "profile_text": "Imam 31 godinu, trudna sam, pod stresom sam i loše spavam.",
+    "goals_text": "Želim smanjiti stres i bolje spavati.",
+    "expected_profile": {
+      "age": 31,
+      "gender": "female",
+      "sleep_quality": "poor",
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": true,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "stress_reduction",
+      "better_sleep"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "ashwagandha",
+      "curcumin",
+      "gaba",
+      "lions_mane",
+      "melatonin",
+      "resveratrol",
+      "rhodiola_rosea",
+      "valerian_root"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 31,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": true,
+      "breastfeeding": true
+    },
+    "predicted_goals": [
+      "stress_reduction",
+      "better_sleep"
+    ]
+  },
+  {
+    "id": "S30",
+    "tags": [
+      "safety"
+    ],
+    "profile_text": "Imam 29 godina, dojim bebu, iscrpljena sam i pod stresom.",
+    "goals_text": "Želim više energije i manje stresa.",
+    "expected_profile": {
+      "age": 29,
+      "gender": "female",
+      "sleep_quality": null,
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": true
+    },
+    "expected_goals": [
+      "more_energy",
+      "stress_reduction"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "ashwagandha",
+      "curcumin",
+      "gaba",
+      "lions_mane",
+      "melatonin",
+      "resveratrol",
+      "rhodiola_rosea",
+      "valerian_root"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 29,
+      "gender": null,
+      "sleep_quality": "poor",
+      "stress_level": "high",
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": "high",
+      "focus_issues": true,
+      "allergies": null,
+      "pregnancy": true,
+      "breastfeeding": true
+    },
+    "predicted_goals": [
+      "more_energy",
+      "stress_reduction"
+    ]
+  },
+  {
+    "id": "S31",
+    "tags": [
+      "safety"
+    ],
+    "profile_text": "Imam 32 godine, veganka sam i trudna, malo sam na suncu.",
+    "goals_text": "Želim jači imunitet, zdravlje kostiju i manje stresa.",
+    "expected_profile": {
+      "age": 32,
+      "gender": "female",
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegan",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": "low",
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": true,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "immune_support",
+      "bone_health",
+      "stress_reduction"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "ashwagandha",
+      "collagen",
+      "curcumin",
+      "gaba",
+      "glucosamine_chondroitin",
+      "lions_mane",
+      "melatonin",
+      "resveratrol",
+      "rhodiola_rosea",
+      "valerian_root"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 32,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegetarian",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": "low",
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": true,
+      "breastfeeding": true
+    },
+    "predicted_goals": [
+      "immune_support",
+      "bone_health",
+      "stress_reduction"
+    ]
+  },
+  {
+    "id": "S32",
+    "tags": [
+      "safety"
+    ],
+    "profile_text": "Imam 28 godina, veganka sam i alergična na ribu.",
+    "goals_text": "Želim podržati srce, kožu i opće zdravlje.",
+    "expected_profile": {
+      "age": 28,
+      "gender": "female",
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegan",
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "fish"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "heart_health",
+      "skin_health",
+      "general_health"
+    ],
+    "expected_empty": false,
+    "forbidden": [
+      "collagen",
+      "glucosamine_chondroitin",
+      "omega_3"
+    ],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 28,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": "vegetarian",
+      "fish_intake": "low",
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": [
+        "fish"
+      ],
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "heart_health",
+      "skin_health",
+      "general_health"
+    ]
+  },
+  {
+    "id": "S33",
+    "tags": [
+      "empty"
+    ],
+    "profile_text": "Imam 40 godina.",
+    "goals_text": "Želim zdravlje kostiju.",
+    "expected_profile": {
+      "age": 40,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "bone_health"
+    ],
+    "expected_empty": true,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": 40,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "bone_health"
+    ]
+  },
+  {
+    "id": "S34",
+    "tags": [
+      "empty"
+    ],
+    "profile_text": "Ništa posebno, osjećam se dobro.",
+    "goals_text": "Zanima me opće zdravlje.",
+    "expected_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": null,
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "expected_goals": [
+      "general_health"
+    ],
+    "expected_empty": true,
+    "forbidden": [],
+    "relevant": [],
+    "predicted_profile": {
+      "age": null,
+      "gender": null,
+      "sleep_quality": "good",
+      "stress_level": null,
+      "activity_level": null,
+      "diet_type": null,
+      "fish_intake": null,
+      "caffeine_intake": null,
+      "sun_exposure": null,
+      "fatigue_level": null,
+      "focus_issues": null,
+      "allergies": null,
+      "pregnancy": null,
+      "breastfeeding": null
+    },
+    "predicted_goals": [
+      "general_health"
+    ]
+  }
+]
