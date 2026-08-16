@@ -1,0 +1,35 @@
+﻿id;opis_korisnika;ciljevi;relevantan_1;relevantan_2;relevantan_3;relevantan_4;relevantan_5
+S01;Imam 23 godine, vegetarijanka sam, san mi je u redu ali sam često pod stresom, tijekom dana sam umorna, teško se koncentriram, pijem puno kave i malo sam na suncu.;Želim bolje spavati, imati više energije i smanjiti stres.;l_theanine;b_complex;vitamin_d3;rhodiola_rosea;magnesium_glycinate
+S02;Vegan sam i cijeli dan se osjećam iscrpljeno.;Želim više energije.;vitamin_b12;iron;b_complex;l_carnitine;
+S03;Imam 27 godina, treniram intenzivno gotovo svaki dan.;Želim bolji oporavak i bolju fizičku izvedbu.;creatine;protein_powder;beta_alanine;electrolytes;
+S04;Gotovo nikada ne jedem ribu.;Želim podržati zdravlje srca.;omega_3;coenzyme_q10;resveratrol;vitamin_k2;
+S05;Radim u uredu i rijetko izlazim na sunce, zimi mi padne raspoloženje.;Želim jači imunitet i bolje raspoloženje.;vitamin_d3;vitamin_c;zinc;elderberry;selenium
+S06;Imam 34 godine, stalno sam umoran i teško se koncentriram na poslu.;Želim više energije i bolju koncentraciju.;b_complex;vitamin_b12;lions_mane;rhodiola_rosea;l_theanine
+S07;Vrlo loše spavam, pod velikim sam stresom i pijem puno kave.;Želim bolje spavati i smanjiti stres.;magnesium_glycinate;l_theanine;valerian_root;melatonin;gaba
+S08;Imam 29 godina, jedem sve, ali koža mi je loša i nokti mi pucaju.;Želim zdraviju kožu, jaču kosu i jače nokte.;biotin;collagen;silica;hyaluronic_acid;zinc
+S09;Ne pijem kavu i nikada je nisam pila.;Želim bolje spavati.;melatonin;magnesium_glycinate;glycine;valerian_root;
+S10;Nemam problema sa snom, spavam odlično, ali sam preko dana umorna.;Želim više energije.;vitamin_b12;b_complex;coenzyme_q10;l_carnitine;iron
+S11;Imam 31 godinu, nisam trudna i ne dojim, ali sam pod stresom.;Želim smanjiti stres.;l_theanine;ashwagandha;rhodiola_rosea;gaba;
+S12;Nemam nikakvih alergija, jedem ribu redovito.;Želim podržati srce.;coenzyme_q10;resveratrol;vitamin_k2;omega_3;
+S13;Cesto sam pod stresom i lose spavam.;Zelim smanjiti stres i bolje spavati.;magnesium_glycinate;l_theanine;glycine;valerian_root;ashwagandha
+S14;Imam 26 godina, vegetarijanka sam i slabo izlazim na sunce.;Zelim jaci imunitet.;vitamin_d3;vitamin_c;zinc;elderberry;selenium
+S15;Puno treniram, aktivnost mi je visoka, stalno sam umoran.;Zelim bolji oporavak i vise energije.;creatine;electrolytes;b_complex;coenzyme_q10;protein_powder
+S16;Imam 33 godine, alergicna sam na mlijeko i intenzivno treniram.;Zelim bolji oporavak.;creatine;electrolytes;glycine;curcumin;magnesium_glycinate
+S17;Imam 25 godina, I am vegan, često sam pod stresom.;Želim stress reduction i više energije.;vitamin_b12;b_complex;l_theanine;rhodiola_rosea;iron
+S18;I am 30 years old, vegetarijanka sam i trudna sam.;I want better sleep i manje stresa.;magnesium_glycinate;glycine;vitamin_b12;b_complex;
+S19;Trebam more energy, stalno sam tired i teško se fokusiram.;More energy and better focus.;b_complex;vitamin_b12;lions_mane;l_theanine;rhodiola_rosea
+S20;Imam 27 godina i tesko se koncentiram na poslu.;Zelim bolju koncentracju.;lions_mane;l_theanine;omega_3;b_complex;rhodiola_rosea
+S21;Imam problema sa snom, stalo sam umorna i pijem puuno kave.;Zelim bolje spavti.;magnesium_glycinate;melatonin;glycine;l_theanine;valerian_root
+S22;Vegetarjanka sam, imam 24 godne.;Zelim zdraviju kozu i jace nokte.;biotin;silica;hyaluronic_acid;zinc;msm
+S23;Imam 25 godina, veganka sam i intenzivno treniram.;Želim zdraviju kožu, jaču kosu, jače nokte i bolji oporavak.;creatine;biotin;silica;msm;zinc
+S24;Imam 30 godina, vegetarijanka sam i ne vježbam puno.;Želim zdraviju kožu, jaču kosu, jače nokte i bolji oporavak.;biotin;silica;hyaluronic_acid;zinc;msm
+S25;Imam 26 godina i jako sam alergična na ribu.;Želim podržati srce i koncentraciju.;coenzyme_q10;resveratrol;vitamin_k2;l_theanine;lions_mane
+S26;Imam 45 godina, alergičan sam na plodove mora, bole me zglobovi.;Želim bolji oporavak i opće zdravlje.;curcumin;msm;glycine;vitamin_d3;coenzyme_q10
+S27;Imam 22 godine, ne podnosim mlijeko, treniram svaki dan.;Želim bolju fizičku izvedbu i oporavak.;creatine;beta_alanine;electrolytes;glycine;magnesium_glycinate
+S28;Imam 38 godina, alergična sam na gljive i teško se koncentriram.;Želim bolju koncentraciju i raspoloženje.;l_theanine;rhodiola_rosea;b_complex;vitamin_d3;omega_3
+S29;Imam 31 godinu, trudna sam, pod stresom sam i loše spavam.;Želim smanjiti stres i bolje spavati.;magnesium_glycinate;glycine;b_complex;vitamin_b12;vitamin_d3
+S30;Imam 29 godina, dojim bebu, iscrpljena sam i pod stresom.;Želim više energije i manje stresa.;b_complex;vitamin_b12;magnesium_glycinate;coenzyme_q10;
+S31;Imam 32 godine, veganka sam i trudna, malo sam na suncu.;Želim jači imunitet, zdravlje kostiju i manje stresa.;vitamin_d3;calcium;vitamin_k2;vitamin_b12;magnesium_glycinate
+S32;Imam 28 godina, veganka sam i alergična na ribu.;Želim podržati srce, kožu i opće zdravlje.;coenzyme_q10;resveratrol;vitamin_k2;biotin;zinc
+S33;Imam 40 godina.;Želim zdravlje kostiju.;calcium;vitamin_d3;vitamin_k2;magnesium_glycinate;
+S34;Ništa posebno, osjećam se dobro.;Zanima me opće zdravlje.;probiotics;vitamin_d3;vitamin_c;zinc;omega_3

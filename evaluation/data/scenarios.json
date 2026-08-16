@@ -32,7 +32,12 @@
       "collagen",
       "glucosamine_chondroitin"
     ],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "l_theanine",
+      "magnesium_glycinate",
+      "vitamin_d3"
+    ],
     "predicted_profile": {
       "age": 23,
       "gender": null,
@@ -86,7 +91,11 @@
       "collagen",
       "glucosamine_chondroitin"
     ],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "iron",
+      "vitamin_b12"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -136,7 +145,12 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "beta_alanine",
+      "creatine",
+      "electrolytes",
+      "protein_powder"
+    ],
     "predicted_profile": {
       "age": 27,
       "gender": null,
@@ -186,7 +200,12 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "coenzyme_q10",
+      "omega_3",
+      "resveratrol",
+      "vitamin_k2"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -238,7 +257,13 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "elderberry",
+      "selenium",
+      "vitamin_c",
+      "vitamin_d3",
+      "zinc"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -289,7 +314,13 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "l_theanine",
+      "lions_mane",
+      "rhodiola_rosea",
+      "vitamin_b12"
+    ],
     "predicted_profile": {
       "age": 34,
       "gender": null,
@@ -340,7 +371,12 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "l_theanine",
+      "magnesium_glycinate",
+      "melatonin",
+      "valerian_root"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -392,7 +428,13 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "biotin",
+      "collagen",
+      "hyaluronic_acid",
+      "silica",
+      "zinc"
+    ],
     "predicted_profile": {
       "age": 29,
       "gender": null,
@@ -443,7 +485,12 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "glycine",
+      "magnesium_glycinate",
+      "melatonin",
+      "valerian_root"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -492,7 +539,13 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "coenzyme_q10",
+      "iron",
+      "l_carnitine",
+      "vitamin_b12"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -542,7 +595,12 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "ashwagandha",
+      "gaba",
+      "l_theanine",
+      "rhodiola_rosea"
+    ],
     "predicted_profile": {
       "age": 31,
       "gender": null,
@@ -592,7 +650,12 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "coenzyme_q10",
+      "omega_3",
+      "resveratrol",
+      "vitamin_k2"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -642,7 +705,13 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "ashwagandha",
+      "glycine",
+      "l_theanine",
+      "magnesium_glycinate",
+      "valerian_root"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -695,7 +764,13 @@
       "collagen",
       "glucosamine_chondroitin"
     ],
-    "relevant": [],
+    "relevant": [
+      "elderberry",
+      "selenium",
+      "vitamin_c",
+      "vitamin_d3",
+      "zinc"
+    ],
     "predicted_profile": {
       "age": 26,
       "gender": null,
@@ -745,7 +820,13 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "coenzyme_q10",
+      "creatine",
+      "electrolytes",
+      "protein_powder"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -800,7 +881,13 @@
     "forbidden": [
       "protein_powder"
     ],
-    "relevant": [],
+    "relevant": [
+      "creatine",
+      "curcumin",
+      "electrolytes",
+      "glycine",
+      "magnesium_glycinate"
+    ],
     "predicted_profile": {
       "age": 33,
       "gender": null,
@@ -855,7 +942,12 @@
       "collagen",
       "glucosamine_chondroitin"
     ],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "l_theanine",
+      "rhodiola_rosea",
+      "vitamin_b12"
+    ],
     "predicted_profile": {
       "age": 25,
       "gender": null,
@@ -918,7 +1010,11 @@
       "rhodiola_rosea",
       "valerian_root"
     ],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "glycine",
+      "magnesium_glycinate"
+    ],
     "predicted_profile": {
       "age": 30,
       "gender": null,
@@ -969,7 +1065,13 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "l_theanine",
+      "lions_mane",
+      "rhodiola_rosea",
+      "vitamin_b12"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -1019,7 +1121,12 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "l_theanine",
+      "lions_mane",
+      "omega_3"
+    ],
     "predicted_profile": {
       "age": 27,
       "gender": null,
@@ -1068,7 +1175,13 @@
     ],
     "expected_empty": false,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "glycine",
+      "l_theanine",
+      "magnesium_glycinate",
+      "melatonin",
+      "valerian_root"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
@@ -1122,7 +1235,13 @@
       "collagen",
       "glucosamine_chondroitin"
     ],
-    "relevant": [],
+    "relevant": [
+      "biotin",
+      "hyaluronic_acid",
+      "msm",
+      "silica",
+      "zinc"
+    ],
     "predicted_profile": {
       "age": 24,
       "gender": null,
@@ -1178,7 +1297,13 @@
       "collagen",
       "glucosamine_chondroitin"
     ],
-    "relevant": [],
+    "relevant": [
+      "biotin",
+      "creatine",
+      "msm",
+      "silica",
+      "zinc"
+    ],
     "predicted_profile": {
       "age": 25,
       "gender": null,
@@ -1236,7 +1361,13 @@
       "collagen",
       "glucosamine_chondroitin"
     ],
-    "relevant": [],
+    "relevant": [
+      "biotin",
+      "hyaluronic_acid",
+      "msm",
+      "silica",
+      "zinc"
+    ],
     "predicted_profile": {
       "age": 30,
       "gender": null,
@@ -1294,7 +1425,13 @@
       "collagen",
       "omega_3"
     ],
-    "relevant": [],
+    "relevant": [
+      "coenzyme_q10",
+      "l_theanine",
+      "lions_mane",
+      "resveratrol",
+      "vitamin_k2"
+    ],
     "predicted_profile": {
       "age": 26,
       "gender": null,
@@ -1351,7 +1488,12 @@
     "forbidden": [
       "glucosamine_chondroitin"
     ],
-    "relevant": [],
+    "relevant": [
+      "curcumin",
+      "glycine",
+      "msm",
+      "vitamin_d3"
+    ],
     "predicted_profile": {
       "age": 45,
       "gender": null,
@@ -1408,7 +1550,13 @@
     "forbidden": [
       "protein_powder"
     ],
-    "relevant": [],
+    "relevant": [
+      "beta_alanine",
+      "creatine",
+      "electrolytes",
+      "glycine",
+      "magnesium_glycinate"
+    ],
     "predicted_profile": {
       "age": 22,
       "gender": null,
@@ -1465,7 +1613,12 @@
     "forbidden": [
       "lions_mane"
     ],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "l_theanine",
+      "rhodiola_rosea",
+      "vitamin_d3"
+    ],
     "predicted_profile": {
       "age": 38,
       "gender": null,
@@ -1527,7 +1680,11 @@
       "rhodiola_rosea",
       "valerian_root"
     ],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "glycine",
+      "magnesium_glycinate"
+    ],
     "predicted_profile": {
       "age": 31,
       "gender": null,
@@ -1587,7 +1744,12 @@
       "rhodiola_rosea",
       "valerian_root"
     ],
-    "relevant": [],
+    "relevant": [
+      "b_complex",
+      "coenzyme_q10",
+      "magnesium_glycinate",
+      "vitamin_b12"
+    ],
     "predicted_profile": {
       "age": 29,
       "gender": null,
@@ -1650,7 +1812,13 @@
       "rhodiola_rosea",
       "valerian_root"
     ],
-    "relevant": [],
+    "relevant": [
+      "calcium",
+      "magnesium_glycinate",
+      "vitamin_b12",
+      "vitamin_d3",
+      "vitamin_k2"
+    ],
     "predicted_profile": {
       "age": 32,
       "gender": null,
@@ -1709,7 +1877,13 @@
       "glucosamine_chondroitin",
       "omega_3"
     ],
-    "relevant": [],
+    "relevant": [
+      "biotin",
+      "coenzyme_q10",
+      "resveratrol",
+      "vitamin_k2",
+      "zinc"
+    ],
     "predicted_profile": {
       "age": 28,
       "gender": null,
@@ -1762,7 +1936,12 @@
     ],
     "expected_empty": true,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "calcium",
+      "magnesium_glycinate",
+      "vitamin_d3",
+      "vitamin_k2"
+    ],
     "predicted_profile": {
       "age": 40,
       "gender": null,
@@ -1811,7 +1990,13 @@
     ],
     "expected_empty": true,
     "forbidden": [],
-    "relevant": [],
+    "relevant": [
+      "omega_3",
+      "probiotics",
+      "vitamin_c",
+      "vitamin_d3",
+      "zinc"
+    ],
     "predicted_profile": {
       "age": null,
       "gender": null,
