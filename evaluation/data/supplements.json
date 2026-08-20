@@ -1,6 +1,7 @@
 [
   {
     "name": "ashwagandha",
+    "nutrient_group": "adaptogen",
     "description": "Adaptogena biljka koja smanjuje stres i balansira kortizol.",
     "goal_tags": [
       "stress_reduction",
@@ -31,6 +32,7 @@
   },
   {
     "name": "b_complex",
+    "nutrient_group": "b_vitamins",
     "description": "Skup vitamina B važnih za živčani sustav i energiju.",
     "goal_tags": [
       "more_energy",
@@ -55,6 +57,7 @@
   },
   {
     "name": "beta_alanine",
+    "nutrient_group": "ergogenic",
     "description": "Aminokiselina koja poboljšava sportske performanse.",
     "goal_tags": [
       "physical_performance",
@@ -76,6 +79,7 @@
   },
   {
     "name": "biotin",
+    "nutrient_group": "b_vitamins",
     "description": "Vitamin B skupine važan za kosu, kožu i nokte.",
     "goal_tags": [
       "hair_health",
@@ -90,6 +94,7 @@
   },
   {
     "name": "calcium",
+    "nutrient_group": "calcium",
     "description": "Mineral za kosti i mišićnu funkciju.",
     "goal_tags": [
       "bone_health"
@@ -105,6 +110,7 @@
   },
   {
     "name": "coenzyme_q10",
+    "nutrient_group": "mitochondrial",
     "description": "Spoj koji podržava energiju i zdravlje srca.",
     "goal_tags": [
       "more_energy",
@@ -121,6 +127,7 @@
   },
   {
     "name": "collagen",
+    "nutrient_group": "joint_connective",
     "description": "Protein važan za kožu, kosu, nokte i zglobove.",
     "goal_tags": [
       "skin_health",
@@ -154,6 +161,7 @@
   },
   {
     "name": "creatine",
+    "nutrient_group": "ergogenic",
     "description": "Dodatak koji poboljšava snagu i oporavak mišića.",
     "goal_tags": [
       "physical_performance",
@@ -181,6 +189,7 @@
   },
   {
     "name": "curcumin",
+    "nutrient_group": "polyphenol",
     "description": "Biljni ekstrakt snažnog protuupalnog i antioksidativnog djelovanja, najčešće standardiziran na kurkumin.",
     "goal_tags": [
       "immune_support",
@@ -211,6 +220,7 @@
   },
   {
     "name": "elderberry",
+    "nutrient_group": "elderberry",
     "description": "Biljni dodatak za podršku imunitetu.",
     "goal_tags": [
       "immune_support"
@@ -223,6 +233,7 @@
   },
   {
     "name": "electrolytes",
+    "nutrient_group": "electrolytes",
     "description": "Minerali koji održavaju hidrataciju i mišićnu funkciju.",
     "goal_tags": [
       "physical_performance",
@@ -244,6 +255,7 @@
   },
   {
     "name": "gaba",
+    "nutrient_group": "gaba_calming",
     "description": "Neurotransmiter koji potiče smirenost i smanjuje napetost.",
     "goal_tags": [
       "stress_reduction",
@@ -271,6 +283,7 @@
   },
   {
     "name": "glucosamine_chondroitin",
+    "nutrient_group": "joint_connective",
     "description": "Dodatak za zglobove i hrskavicu.",
     "goal_tags": [
       "recovery",
@@ -302,6 +315,7 @@
   },
   {
     "name": "glycine",
+    "nutrient_group": "sleep_sedative",
     "description": "Aminokiselina koja poboljšava san i regeneraciju.",
     "goal_tags": [
       "better_sleep",
@@ -319,6 +333,7 @@
   },
   {
     "name": "hyaluronic_acid",
+    "nutrient_group": "skin_structural",
     "description": "Spoj važan za hidrataciju kože.",
     "goal_tags": [
       "skin_health"
@@ -331,6 +346,7 @@
   },
   {
     "name": "iron",
+    "nutrient_group": "iron",
     "description": "Mineral važan za transport kisika u krvi.",
     "goal_tags": [
       "more_energy",
@@ -356,6 +372,7 @@
   },
   {
     "name": "l_carnitine",
+    "nutrient_group": "mitochondrial",
     "description": "Pomaže transport masti u mitohondrije za energiju.",
     "goal_tags": [
       "more_energy",
@@ -374,6 +391,7 @@
   },
   {
     "name": "l_theanine",
+    "nutrient_group": "gaba_calming",
     "description": "Aminokiselina koja potiče opuštanje bez sedacije i poboljšava fokus.",
     "goal_tags": [
       "better_focus",
@@ -394,6 +412,7 @@
   },
   {
     "name": "lions_mane",
+    "nutrient_group": "lions_mane",
     "description": "Gljiva koja podupire kognitivne funkcije.",
     "goal_tags": [
       "better_focus",
@@ -425,6 +444,7 @@
   },
   {
     "name": "magnesium_glycinate",
+    "nutrient_group": "magnesium_glycinate",
     "description": "Oblik magnezija koji se dobro apsorbira i koristi za opuštanje živčanog sustava i bolji san.",
     "goal_tags": [
       "better_sleep",
@@ -448,6 +468,7 @@
   },
   {
     "name": "melatonin",
+    "nutrient_group": "sleep_sedative",
     "description": "Hormon koji regulira ritam spavanja.",
     "goal_tags": [
       "better_sleep"
@@ -475,6 +496,7 @@
   },
   {
     "name": "msm",
+    "nutrient_group": "joint_connective",
     "description": "Spoj sa sumporom za zglobove, kosu i kožu.",
     "goal_tags": [
       "skin_health",
@@ -491,6 +513,7 @@
   },
   {
     "name": "omega_3",
+    "nutrient_group": "omega_3",
     "description": "Esencijalne masne kiseline važne za mozak, srce i upalne procese.",
     "goal_tags": [
       "heart_health",
@@ -522,6 +545,7 @@
   },
   {
     "name": "probiotics",
+    "nutrient_group": "probiotics",
     "description": "Korisne bakterije za probavu i imunitet.",
     "goal_tags": [
       "immune_support",
@@ -541,6 +565,7 @@
   },
   {
     "name": "protein_powder",
+    "nutrient_group": "protein_powder",
     "description": "Izvor proteina za oporavak i rast mišića.",
     "goal_tags": [
       "recovery",
@@ -567,6 +592,7 @@
   },
   {
     "name": "resveratrol",
+    "nutrient_group": "polyphenol",
     "description": "Polifenol iz grožđa poznat po snažnom antioksidativnom djelovanju i podršci zdravlju srca.",
     "goal_tags": [
       "heart_health",
@@ -593,6 +619,7 @@
   },
   {
     "name": "rhodiola_rosea",
+    "nutrient_group": "adaptogen",
     "description": "Adaptogena biljka za otpornost na stres i mentalnu energiju.",
     "goal_tags": [
       "stress_reduction",
@@ -622,6 +649,7 @@
   },
   {
     "name": "selenium",
+    "nutrient_group": "selenium",
     "description": "Mineral koji podržava štitnjaču i imunitet.",
     "goal_tags": [
       "immune_support",
@@ -635,6 +663,7 @@
   },
   {
     "name": "silica",
+    "nutrient_group": "skin_structural",
     "description": "Mineral za kosu, kožu i nokte.",
     "goal_tags": [
       "hair_health",
@@ -649,6 +678,7 @@
   },
   {
     "name": "valerian_root",
+    "nutrient_group": "sleep_sedative",
     "description": "Biljni dodatak za opuštanje i bolji san.",
     "goal_tags": [
       "better_sleep",
@@ -676,6 +706,7 @@
   },
   {
     "name": "vitamin_b12",
+    "nutrient_group": "b_vitamins",
     "description": "Ključan za energiju, živčani sustav i proizvodnju crvenih krvnih stanica.",
     "goal_tags": [
       "more_energy",
@@ -698,6 +729,7 @@
   },
   {
     "name": "vitamin_c",
+    "nutrient_group": "vitamin_c",
     "description": "Antioksidans važan za imunitet.",
     "goal_tags": [
       "immune_support",
@@ -715,6 +747,7 @@
   },
   {
     "name": "vitamin_d3",
+    "nutrient_group": "vitamin_d3",
     "description": "Vitamin važan za imunitet, raspoloženje i zdravlje kostiju.",
     "goal_tags": [
       "immune_support",
@@ -742,6 +775,7 @@
   },
   {
     "name": "vitamin_k2",
+    "nutrient_group": "vitamin_k2",
     "description": "Vitamin važan za kosti i srce.",
     "goal_tags": [
       "bone_health",
@@ -755,6 +789,7 @@
   },
   {
     "name": "zinc",
+    "nutrient_group": "zinc",
     "description": "Mineral važan za imunitet, kožu i hormone.",
     "goal_tags": [
       "immune_support",

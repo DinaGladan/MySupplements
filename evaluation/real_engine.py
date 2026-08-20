@@ -34,6 +34,7 @@ VERY_NEGATIVE = -10**6
 
 SUPPLEMENT_FIELDS = (
     "name",
+    "nutrient_group",
     "description",
     "goal_tags",
     "state_scores",

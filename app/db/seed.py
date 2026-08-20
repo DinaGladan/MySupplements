@@ -4,6 +4,7 @@ from app.models.supplement import Supplement
 SUPPLEMENTS_DATA = [
     {
         "name": "magnesium_glycinate",
+        "nutrient_group": "magnesium_glycinate",
         "description": "Oblik magnezija koji se dobro apsorbira i koristi za opuštanje živčanog sustava i bolji san.",
         "goal_tags": ["better_sleep", "stress_reduction", "mood_support", "recovery"],
         "state_scores": {
@@ -22,6 +23,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "omega_3",
+        "nutrient_group": "omega_3",
         "description": "Esencijalne masne kiseline važne za mozak, srce i upalne procese.",
         "goal_tags": [
             "heart_health",
@@ -53,6 +55,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "vitamin_d3",
+        "nutrient_group": "vitamin_d3",
         "description": "Vitamin važan za imunitet, raspoloženje i zdravlje kostiju.",
         "goal_tags": ["immune_support", "bone_health", "mood_support"],
         "state_scores": {
@@ -76,6 +79,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "vitamin_b12",
+        "nutrient_group": "b_vitamins",
         "description": "Ključan za energiju, živčani sustav i proizvodnju crvenih krvnih stanica.",
         "goal_tags": ["more_energy", "better_focus", "general_health"],
         "state_scores": {
@@ -94,6 +98,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "ashwagandha",
+        "nutrient_group": "adaptogen",
         "description": "Adaptogena biljka koja smanjuje stres i balansira kortizol.",
         "goal_tags": ["stress_reduction", "mood_support", "better_sleep"],
         "state_scores": {
@@ -120,6 +125,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "melatonin",
+        "nutrient_group": "sleep_sedative",
         "description": "Hormon koji regulira ritam spavanja.",
         "goal_tags": ["better_sleep"],
         "state_scores": {
@@ -145,6 +151,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "creatine",
+        "nutrient_group": "ergogenic",
         "description": "Dodatak koji poboljšava snagu i oporavak mišića.",
         "goal_tags": ["physical_performance", "recovery", "more_energy"],
         "state_scores": {
@@ -168,6 +175,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "protein_powder",
+        "nutrient_group": "protein_powder",
         "description": "Izvor proteina za oporavak i rast mišića.",
         "goal_tags": ["recovery", "physical_performance", "general_health"],
         "state_scores": {},
@@ -190,6 +198,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "zinc",
+        "nutrient_group": "zinc",
         "description": "Mineral važan za imunitet, kožu i hormone.",
         "goal_tags": ["immune_support", "skin_health", "general_health"],
         "state_scores": {},
@@ -205,6 +214,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "probiotics",
+        "nutrient_group": "probiotics",
         "description": "Korisne bakterije za probavu i imunitet.",
         "goal_tags": ["immune_support", "general_health", "skin_health"],
         "state_scores": {},
@@ -220,6 +230,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "biotin",
+        "nutrient_group": "b_vitamins",
         "description": "Vitamin B skupine važan za kosu, kožu i nokte.",
         "goal_tags": ["hair_health", "nail_strength", "skin_health"],
         "state_scores": {},
@@ -230,6 +241,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "collagen",
+        "nutrient_group": "joint_connective",
         "description": "Protein važan za kožu, kosu, nokte i zglobove.",
         "goal_tags": ["skin_health", "hair_health", "nail_strength", "recovery"],
         "state_scores": {},
@@ -258,6 +270,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "l_theanine",
+        "nutrient_group": "gaba_calming",
         "description": "Aminokiselina koja potiče opuštanje bez sedacije i poboljšava fokus.",
         "goal_tags": ["better_focus", "stress_reduction", "mood_support"],
         "state_scores": {
@@ -274,6 +287,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "rhodiola_rosea",
+        "nutrient_group": "adaptogen",
         "description": "Adaptogena biljka za otpornost na stres i mentalnu energiju.",
         "goal_tags": ["stress_reduction", "more_energy", "better_focus"],
         "state_scores": {
@@ -299,6 +313,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "gaba",
+        "nutrient_group": "gaba_calming",
         "description": "Neurotransmiter koji potiče smirenost i smanjuje napetost.",
         "goal_tags": ["stress_reduction", "better_sleep"],
         "state_scores": {
@@ -323,6 +338,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "b_complex",
+        "nutrient_group": "b_vitamins",
         "description": "Skup vitamina B važnih za živčani sustav i energiju.",
         "goal_tags": ["more_energy", "better_focus", "mood_support"],
         "state_scores": {
@@ -343,6 +359,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "lions_mane",
+        "nutrient_group": "lions_mane",
         "description": "Gljiva koja podupire kognitivne funkcije.",
         "goal_tags": ["better_focus", "mood_support"],
         "state_scores": {
@@ -371,6 +388,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "glycine",
+        "nutrient_group": "sleep_sedative",
         "description": "Aminokiselina koja poboljšava san i regeneraciju.",
         "goal_tags": ["better_sleep", "recovery"],
         "state_scores": {
@@ -385,6 +403,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "valerian_root",
+        "nutrient_group": "sleep_sedative",
         "description": "Biljni dodatak za opuštanje i bolji san.",
         "goal_tags": ["better_sleep", "stress_reduction"],
         "state_scores": {
@@ -409,6 +428,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "coenzyme_q10",
+        "nutrient_group": "mitochondrial",
         "description": "Spoj koji podržava energiju i zdravlje srca.",
         "goal_tags": ["more_energy", "heart_health"],
         "state_scores": {
@@ -422,6 +442,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "iron",
+        "nutrient_group": "iron",
         "description": "Mineral važan za transport kisika u krvi.",
         "goal_tags": ["more_energy", "general_health"],
         "state_scores": {
@@ -444,6 +465,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "l_carnitine",
+        "nutrient_group": "mitochondrial",
         "description": "Pomaže transport masti u mitohondrije za energiju.",
         "goal_tags": ["more_energy", "physical_performance"],
         "state_scores": {
@@ -459,6 +481,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "beta_alanine",
+        "nutrient_group": "ergogenic",
         "description": "Aminokiselina koja poboljšava sportske performanse.",
         "goal_tags": ["physical_performance", "recovery"],
         "state_scores": {},
@@ -477,6 +500,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "electrolytes",
+        "nutrient_group": "electrolytes",
         "description": "Minerali koji održavaju hidrataciju i mišićnu funkciju.",
         "goal_tags": ["physical_performance", "recovery"],
         "state_scores": {},
@@ -495,6 +519,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "vitamin_c",
+        "nutrient_group": "vitamin_c",
         "description": "Antioksidans važan za imunitet.",
         "goal_tags": ["immune_support", "skin_health"],
         "state_scores": {
@@ -509,6 +534,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "selenium",
+        "nutrient_group": "selenium",
         "description": "Mineral koji podržava štitnjaču i imunitet.",
         "goal_tags": ["immune_support", "general_health"],
         "state_scores": {},
@@ -519,6 +545,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "elderberry",
+        "nutrient_group": "elderberry",
         "description": "Biljni dodatak za podršku imunitetu.",
         "goal_tags": ["immune_support"],
         "state_scores": {},
@@ -529,6 +556,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "hyaluronic_acid",
+        "nutrient_group": "skin_structural",
         "description": "Spoj važan za hidrataciju kože.",
         "goal_tags": ["skin_health"],
         "state_scores": {},
@@ -539,6 +567,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "silica",
+        "nutrient_group": "skin_structural",
         "description": "Mineral za kosu, kožu i nokte.",
         "goal_tags": ["hair_health", "skin_health", "nail_strength"],
         "state_scores": {},
@@ -549,6 +578,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "msm",
+        "nutrient_group": "joint_connective",
         "description": "Spoj sa sumporom za zglobove, kosu i kožu.",
         "goal_tags": ["skin_health", "hair_health", "recovery"],
         "state_scores": {},
@@ -561,6 +591,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "glucosamine_chondroitin",
+        "nutrient_group": "joint_connective",
         "description": "Dodatak za zglobove i hrskavicu.",
         "goal_tags": ["recovery", "general_health"],
         "state_scores": {},
@@ -589,6 +620,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "calcium",
+        "nutrient_group": "calcium",
         "description": "Mineral za kosti i mišićnu funkciju.",
         "goal_tags": ["bone_health"],
         "state_scores": {},
@@ -602,6 +634,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "vitamin_k2",
+        "nutrient_group": "vitamin_k2",
         "description": "Vitamin važan za kosti i srce.",
         "goal_tags": ["bone_health", "heart_health"],
         "state_scores": {},
@@ -612,6 +645,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "curcumin",
+        "nutrient_group": "polyphenol",
         "description": "Biljni ekstrakt snažnog protuupalnog i antioksidativnog djelovanja, najčešće standardiziran na kurkumin.",
         "goal_tags": ["immune_support", "recovery", "general_health", "skin_health"],
         "state_scores": {
@@ -637,6 +671,7 @@ SUPPLEMENTS_DATA = [
     },
     {
         "name": "resveratrol",
+        "nutrient_group": "polyphenol",
         "description": "Polifenol iz grožđa poznat po snažnom antioksidativnom djelovanju i podršci zdravlju srca.",
         "goal_tags": [
             "heart_health",

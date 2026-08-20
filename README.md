@@ -81,6 +81,27 @@ total_score = goal_match
 `good` (5–6), `very_relevant` (7+). Ties are broken by supplement name so that
 the same profile always produces the same ordering.
 
+### Stage 3 — the set as a whole
+
+Scoring judges each supplement on its own, so the top five can be poor as a *set*
+even when every member is individually sound. `app/services/safety_service.py`
+handles the two cases per-item scoring cannot see.
+
+**Interactions.** Known pairs that compete for absorption (calcium and iron, zinc
+and iron, calcium and zinc) get a warning attached to *both* members. Nothing is
+removed: neither supplement is unsuitable on its own, and spacing the doses
+resolves it.
+
+**Redundancy.** Each supplement carries a `nutrient_group`; `b_complex`,
+`vitamin_b12` and `biotin` share one, as do the adaptogens and the joint-support
+group. With `GROUP_DEDUP=True` only the best-scoring member of each group
+survives.
+
+This ships **off**. Measured against the annotated scenarios it lowers nDCG@5 from
+0.758 to 0.682, because 16 of the supplements it removes were labelled relevant by
+both annotators — people do want B-complex *and* B12. The switch is kept so the
+comparison can be reported rather than assumed.
+
 Weights, category scales and the safety mode are grouped in
 `app/services/scoring_config.py`. Passing no config reproduces production
 behaviour; the evaluation scripts vary it to run ablation and sensitivity analyses.

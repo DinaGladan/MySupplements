@@ -58,6 +58,7 @@ class ScoringConfig:
     category_cap: Optional[int] = None
     min_display_score: Optional[int] = None
     safety_mode: Optional[str] = None
+    group_dedup: Optional[bool] = None
     max_recommendations: int = 5
 
     def resolved_min_display_score(self) -> int:
@@ -73,6 +74,13 @@ class ScoringConfig:
         from app.config import settings
 
         return settings.safety_mode
+
+    def resolved_group_dedup(self) -> bool:
+        if self.group_dedup is not None:
+            return self.group_dedup
+        from app.config import settings
+
+        return settings.group_dedup
 
     def replace(self, **overrides) -> "ScoringConfig":
         """Return a copy with some fields overridden (used by the evaluation)."""

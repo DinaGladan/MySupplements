@@ -9,6 +9,8 @@ class Supplement(Base):
     name = Column(String, unique=True, nullable=False)
     description = Column(String, nullable=True)
 
+    nutrient_group = Column(String, nullable=True, index=True)
+
     goal_tags = Column(JSON, default=list)
 
     state_scores = Column(JSON, default=dict)

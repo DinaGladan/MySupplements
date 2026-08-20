@@ -18,6 +18,8 @@ class Settings(BaseSettings):
 
     safety_mode: str = "veto"
 
+    group_dedup: bool = False
+
     # When False (default), the explanation is built by the fast deterministic
     # template (build_explanation). Set USE_LLM_EXPLANATION=True to have the LLM
     # write the explanation instead — nicer prose, but adds ~100-200s per request

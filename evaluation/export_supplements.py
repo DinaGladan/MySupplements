@@ -28,6 +28,7 @@ DEFAULT_OUT = os.path.join(SCRIPT_DIR, "data", "supplements.json")
 
 FIELDS = (
     "name",
+    "nutrient_group",
     "description",
     "goal_tags",
     "state_scores",
@@ -42,10 +43,15 @@ def export(out_path: str) -> int:
     db = SessionLocal()
     try:
         rows = db.query(Supplement).order_by(Supplement.name).all()
+        empty = {"description": "", "nutrient_group": None, "goal_tags": []}
         data = [
             {
-                field: (getattr(row, field) if field == "name" else getattr(row, field) or
-                        ("" if field == "description" else {} if field.endswith("scores") or field == "penalties" else []))
+                field: (
+                    getattr(row, field)
+                    if field == "name"
+                    else getattr(row, field)
+                    or empty.get(field, {} if field.endswith("scores") or field == "penalties" else [])
+                )
                 for field in FIELDS
             }
             for row in rows
