@@ -15,6 +15,7 @@ class SupplementOut(BaseModel):
     id: int
     name: str
     description: str | None
+    nutrient_group: str | None
     goal_tags: list[str]
     state_scores: dict
     lifestyle_scores: dict
